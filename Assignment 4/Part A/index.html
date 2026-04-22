@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Mobile Website</title>
+
+    <!-- jQuery Mobile CSS -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <!-- jQuery Mobile JS -->
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<!-- ================= HOME PAGE ================= -->
+<div data-role="page" id="home">
+
+    <div data-role="header">
+        <h1>My Mobile Site</h1>
+    </div>
+
+    <div data-role="content">
+        <h2>Welcome 👋</h2>
+        <p>This is a simple mobile website using jQuery Mobile framework.</p>
+
+        <a href="#about" data-role="button">About Us</a>
+        <a href="#services" data-role="button">Services</a>
+        <a href="#contact" data-role="button">Contact</a>
+    </div>
+
+    <div data-role="footer">
+        <h4>© 2026 My Website</h4>
+    </div>
+
+</div>
+
+
+<!-- ================= ABOUT PAGE ================= -->
+<div data-role="page" id="about">
+
+    <div data-role="header">
+        <h1>About Us</h1>
+    </div>
+
+    <div data-role="content">
+        <p>
+            We are IT engineering students learning web development and mobile UI design.
+            This website demonstrates jQuery Mobile framework usage.
+        </p>
+
+        <a href="#home" data-role="button">Back to Home</a>
+    </div>
+
+    <div data-role="footer">
+        <h4>About Page</h4>
+    </div>
+
+</div>
+
+
+<!-- ================= SERVICES PAGE ================= -->
+<div data-role="page" id="services">
+
+    <div data-role="header">
+        <h1>Services</h1>
+    </div>
+
+    <div data-role="content">
+
+        <ul data-role="listview">
+            <li>Web Development</li>
+            <li>Mobile App Design</li>
+            <li>UI/UX Design</li>
+            <li>Frontend Development</li>
+        </ul>
+
+        <br>
+        <a href="#home" data-role="button">Back to Home</a>
+
+    </div>
+
+    <div data-role="footer">
+        <h4>Services Page</h4>
+    </div>
+
+</div>
+
+
+<!-- ================= CONTACT PAGE ================= -->
+<div data-role="page" id="contact">
+
+    <div data-role="header">
+        <h1>Contact Us</h1>
+    </div>
+
+    <div data-role="content">
+
+        <form>
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name">
+
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email">
+
+            <label>Message:</label>
+            <textarea placeholder="Write your message"></textarea>
+
+            <input type="submit" value="Send" data-role="button">
+        </form>
+
+        <br>
+        <a href="#home" data-role="button">Back to Home</a>
+
+    </div>
+
+    <div data-role="footer">
+        <h4>Contact Page</h4>
+    </div>
+
+</div>
+
+</body>
+</html>
